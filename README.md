@@ -1,2 +1,20 @@
 # Activitie-60_Linguagem-C
 Questão de exercício sobre vetores em linguagem C.
+
+ #include <stdio.h>
+int main() {
+    float numeros[4], soma = 0.0;
+    
+    for (int i = 0; i < 4; i++) {
+        printf("Digite o número %d: ", i + 1);
+        scanf("%f", &numeros[i]);
+    }
+
+    for (int i = 0; i < 4; i++) {
+        soma += numeros[i];
+    }
+    printf("A soma dos números é: %.2f\n", soma);
+
+    return 0;
+}
+ 
