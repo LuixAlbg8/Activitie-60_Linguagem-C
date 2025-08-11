@@ -1,8 +1,8 @@
 # Activitie-60_Linguagem-C
 Questão de exercício sobre vetores em linguagem C.
 
- #include <stdio.h>
-int main() {
+    #include <stdio.h>
+    int main() {
     float numeros[4], soma = 0.0;
     
     for (int i = 0; i < 4; i++) {
